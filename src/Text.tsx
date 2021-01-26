@@ -1,6 +1,6 @@
-import React from 'react'
+import * as React from 'react';
 
 export default () => {
-    const text: string = 'Hello Typescript React wow'
-    return <div>{text}</div>
-}
+  const text: string = 'Hello Typescript React wow';
+  return <div>{text}</div>;
+};
