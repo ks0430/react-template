@@ -6,6 +6,9 @@ module.exports = {
     entry: './src/index.js',
     mode: 'development',
     devtool: 'inline-source-map',
+    devServer: {
+        hot: true,
+    },
     plugins: [
         new CleanWebpackPlugin(),
         new HtmlWebpackPlugin({
